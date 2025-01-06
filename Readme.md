@@ -42,8 +42,7 @@ The **E-Commerce API** is a backend application designed to handle the core func
 4. **Database Setup**
     ```bash
     In settings.py
-
-     DATABASES = {
+         DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ecommerce',
@@ -53,6 +52,11 @@ The **E-Commerce API** is a backend application designed to handle the core func
         'PORT': '3306',
     }
 }
+
+
+    
+
+   ** Migrations** 
     ```bash
     python manage.py makemigrations
     python manage.py migrate
