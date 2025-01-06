@@ -31,13 +31,18 @@ The **E-Commerce API** is a backend application designed to handle the core func
 
 2. **Installation**:
    **clone the respository**
+    ```bash
      git clone https://github.com/yourusername/Ecommerce-API.git
      cd Ecommerce-API
 
 3. **Install Required Packages**
+    ```bash
      pip install -r requirnments.txt
 
 4. **Database Setup**
+    ```bash
+    In settings.py
+
      DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -48,11 +53,12 @@ The **E-Commerce API** is a backend application designed to handle the core func
         'PORT': '3306',
     }
 }
-
+    ```bash
     python manage.py makemigrations
     python manage.py migrate
 
 5. **start the development server**
+    ```bash
     python manage.py runserver
 
 
