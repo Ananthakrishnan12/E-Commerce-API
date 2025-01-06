@@ -62,4 +62,5 @@ The **E-Commerce API** is a backend application designed to handle the core func
     python manage.py runserver
 
 
-## API Testing DEMO...
+## API Testing DEMO...  ![API Testing Demo](https://imgur.com/a/jXz2p9J)
+                
